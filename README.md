@@ -1,5 +1,13 @@
 # actionCreateDocumentSample
 
+<reproduction procedure>
+
+1. launch the application
+2. Press the OPENSAF button
+
+ADB Logs:
+
+```
 12-05 14:51:57.077  1692  6859 I ActivityTaskManager: START u0 {act=android.intent.action.CREATE_DOCUMENT typ=text/* (has extras)} from uid 10169
 12-05 14:51:57.079 10130 10130 D AndroidRuntime: Shutting down VM
 12-05 14:51:57.082 10130 10130 E AndroidRuntime: FATAL EXCEPTION: main
@@ -44,3 +52,5 @@
 12-05 14:51:57.134  1692  2221 E InputDispatcher: channel 'df7ad1e com.example.safsumple/com.example.safsumple.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
 12-05 14:51:57.135  1692  4356 W InputDispatcher: Attempted to unregister already unregistered input channel 'df7ad1e com.example.safsumple/com.example.safsumple.MainActivity (server)'
 12-05 14:51:57.144  1692  1953 I libprocessgroup: Successfully killed process cgroup uid 10169 pid 10130 in 0ms
+
+```
